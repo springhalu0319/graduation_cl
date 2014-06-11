@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9,00"
+	Name="5-in-a-row"
+	ProjectGUID="{93B39584-CFEC-300B-B797-2822F69A4FC5}"
+	Keyword="Qt4VSv1.0">
+	<Platforms>
+		<Platform
+			Name="Win32" />
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="."
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="1"
+			IntermediateDirectory="debug\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot;,&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot;,&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtOpenGL&quot;,&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtScript&quot;,&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtDeclarative&quot;,&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot;,&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot;,&quot;debug&quot;,d:\study\IDE\qt-win-opensource-vs2008\mkspecs\default"
+				AdditionalOptions="-Zm200 -w34100 -w34189"
+				AssemblerListingLocation="debug\"
+				BufferSecurityCheck="false"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				GeneratePreprocessedFile="0"
+				ObjectFile="debug\"
+				Optimization ="4"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_DECLARATIVE_LIB,QT_SCRIPT_LIB,QT_OPENGL_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				TreatWChar_tAsBuiltInType="false"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="glu32.lib opengl32.lib gdi32.lib user32.lib d:\study\IDE\qt-win-opensource-vs2008\lib\qtmaind.lib d:\study\IDE\qt-win-opensource-vs2008\lib\QtDeclaratived4.lib d:\study\IDE\qt-win-opensource-vs2008\lib\QtScriptd4.lib d:\study\IDE\qt-win-opensource-vs2008\lib\QtOpenGLd4.lib d:\study\IDE\qt-win-opensource-vs2008\lib\QtGuid4.lib d:\study\IDE\qt-win-opensource-vs2008\lib\QtCored4.lib"
+				AdditionalLibraryDirectories="d:\study\IDE\qt-win-opensource-vs2008\lib"
+				AdditionalOptions="&quot;/MANIFESTDEPENDENCY:type=&apos;win32&apos; name=&apos;Microsoft.Windows.Common-Controls&apos; version=&apos;6.0.0.0&apos; publicKeyToken=&apos;6595b64144ccf1df&apos; language=&apos;*&apos; processorArchitecture=&apos;*&apos;&quot;"
+				GenerateDebugInformation="true"
+				IgnoreImportLibrary="true"
+				LinkTimeCodeGeneration="0"
+				OutputFile="debug\5-in-a-row.exe"
+				ProgramDatabaseFile=""
+				SubSystem="2"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_DECLARATIVE_LIB,QT_SCRIPT_LIB,QT_OPENGL_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT,_DEBUG" />
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="."
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="1"
+			IntermediateDirectory="release\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot;,&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot;,&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtOpenGL&quot;,&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtScript&quot;,&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtDeclarative&quot;,&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot;,&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot;,&quot;release&quot;,d:\study\IDE\qt-win-opensource-vs2008\mkspecs\default"
+				AdditionalOptions="-Zm200 -w34100 -w34189"
+				AssemblerListingLocation="release\"
+				BufferSecurityCheck="false"
+				DebugInformationFormat="0"
+				ExceptionHandling="1"
+				GeneratePreprocessedFile="0"
+				ObjectFile="release\"
+				Optimization ="2"
+				PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_NO_DEBUG,QT_DECLARATIVE_LIB,QT_SCRIPT_LIB,QT_OPENGL_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT,NDEBUG"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				TreatWChar_tAsBuiltInType="false"
+				WarningLevel="3" />
+			<Tool
+				Name="VCCustomBuildTool" />
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="glu32.lib opengl32.lib gdi32.lib user32.lib d:\study\IDE\qt-win-opensource-vs2008\lib\qtmain.lib d:\study\IDE\qt-win-opensource-vs2008\lib\QtDeclarative4.lib d:\study\IDE\qt-win-opensource-vs2008\lib\QtScript4.lib d:\study\IDE\qt-win-opensource-vs2008\lib\QtOpenGL4.lib d:\study\IDE\qt-win-opensource-vs2008\lib\QtGui4.lib d:\study\IDE\qt-win-opensource-vs2008\lib\QtCore4.lib"
+				AdditionalLibraryDirectories="d:\study\IDE\qt-win-opensource-vs2008\lib"
+				AdditionalOptions="&quot;/MANIFESTDEPENDENCY:type=&apos;win32&apos; name=&apos;Microsoft.Windows.Common-Controls&apos; version=&apos;6.0.0.0&apos; publicKeyToken=&apos;6595b64144ccf1df&apos; language=&apos;*&apos; processorArchitecture=&apos;*&apos;&quot;"
+				GenerateDebugInformation="false"
+				IgnoreImportLibrary="true"
+				LinkIncremental="1"
+				LinkTimeCodeGeneration="0"
+				OutputFile="release\5-in-a-row.exe"
+				ProgramDatabaseFile=""
+				SubSystem="2"
+				SuppressStartupBanner="true" />
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0" />
+			<Tool
+				Name="VCPostBuildEventTool" />
+			<Tool
+				Name="VCPreBuildEventTool" />
+			<Tool
+				Name="VCPreLinkEventTool" />
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_NO_DEBUG,QT_DECLARATIVE_LIB,QT_SCRIPT_LIB,QT_OPENGL_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT" />
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="gamedata.cpp" />
+			<File
+				RelativePath="main.cpp" />
+			<File
+				RelativePath="mainwidget.cpp" />
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath="gamedata.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;gamedata.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtOpenGL&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtScript&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtDeclarative&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;debug&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 gamedata.h -o debug\moc_gamedata.cpp"
+						Description="MOC gamedata.h"
+						Outputs="debug\moc_gamedata.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;gamedata.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtOpenGL&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtScript&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtDeclarative&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;release&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 gamedata.h -o release\moc_gamedata.cpp"
+						Description="MOC gamedata.h"
+						Outputs="release\moc_gamedata.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="mainwidget.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;mainwidget.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtOpenGL&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtScript&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtDeclarative&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;debug&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 mainwidget.h -o debug\moc_mainwidget.cpp"
+						Description="MOC mainwidget.h"
+						Outputs="debug\moc_mainwidget.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;mainwidget.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtOpenGL&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtScript&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtDeclarative&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;release&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 mainwidget.h -o release\moc_mainwidget.cpp"
+						Description="MOC mainwidget.h"
+						Outputs="release\moc_mainwidget.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="tile.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;tile.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtOpenGL&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtScript&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtDeclarative&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;debug&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 tile.h -o debug\moc_tile.cpp"
+						Description="MOC tile.h"
+						Outputs="debug\moc_tile.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe;tile.h"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_DECLARATIVE_LIB -DQT_SCRIPT_LIB -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtCore&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtGui&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtOpenGL&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtScript&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\QtDeclarative&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include&quot; -I&quot;d:\study\IDE\qt-win-opensource-vs2008\include\ActiveQt&quot; -I&quot;release&quot; -Id:\study\IDE\qt-win-opensource-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 tile.h -o release\moc_tile.cpp"
+						Description="MOC tile.h"
+						Outputs="release\moc_tile.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Generated Files"
+			Filter="cpp;c;cxx;moc;h;def;odl;idl;res;"
+			UniqueIdentifier="{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}">
+			<File
+				RelativePath="debug\moc_gamedata.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\moc_gamedata.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="debug\moc_mainwidget.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\moc_mainwidget.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="debug\moc_tile.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\moc_tile.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="debug\qrc_qtrc.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+			<File
+				RelativePath="release\qrc_qtrc.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true" />
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="qrc;*"
+			UniqueIdentifier="{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}"
+			ParseFiles="false">
+			<File
+				RelativePath="content\Button.qml" />
+			<File
+				RelativePath="content\i18n\CP_zh_CN.qm" />
+			<File
+				RelativePath="content\i18n\CP_zh_CN.ts" />
+			<File
+				RelativePath="content\ControlPanel.qml" />
+			<File
+				RelativePath="content\Explosion.qml" />
+			<File
+				RelativePath="content\Frame.qml" />
+			<File
+				RelativePath="content\GameView.qml" />
+			<File
+				RelativePath="content\i18n\MP_zh_CN.qm" />
+			<File
+				RelativePath="content\i18n\MP_zh_CN.ts" />
+			<File
+				RelativePath="content\i18n\M_zh_CN.qm" />
+			<File
+				RelativePath="content\i18n\M_zh_CN.ts" />
+			<File
+				RelativePath="content\MainView.qml" />
+			<File
+				RelativePath="content\MenuPanel.qml" />
+			<File
+				RelativePath="content\Switch.qml" />
+			<File
+				RelativePath="content\Tile.qml" />
+			<File
+				RelativePath="content\images\background.jpg" />
+			<File
+				RelativePath="content\images\close.png" />
+			<File
+				RelativePath="laola.ico" />
+			<File
+				RelativePath="content\images\minimize.png" />
+			<File
+				RelativePath="content\images\particle.png" />
+			<File
+				RelativePath="content\qmldir" />
+			<File
+				RelativePath="qtrc.qrc">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\rcc.exe;content\Button.qml;content\ControlPanel.qml;content\Explosion.qml;content\Frame.qml;content\GameView.qml;content\MainView.qml;content\MenuPanel.qml;content\Switch.qml;content\Tile.qml;content\i18n\CP_zh_CN.qm;content\i18n\CP_zh_CN.ts;content\i18n\MP_zh_CN.qm;content\i18n\MP_zh_CN.ts;content\i18n\M_zh_CN.qm;content\i18n\M_zh_CN.ts;content\images\background.jpg;content\images\close.png;content\images\minimize.png;content\images\particle.png;content\images\quit.png;content\images\splash.jpg;content\images\tile_background.png;content\images\tile_button1.png;content\images\tile_button2.png;content\qmldir;laola.ico;qtrc.qrc"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\rcc.exe -name qtrc qtrc.qrc -o debug\qrc_qtrc.cpp"
+						Description="RCC qtrc.qrc"
+						Outputs="debug\qrc_qtrc.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\study\IDE\qt-win-opensource-vs2008\bin\rcc.exe;content\Button.qml;content\ControlPanel.qml;content\Explosion.qml;content\Frame.qml;content\GameView.qml;content\MainView.qml;content\MenuPanel.qml;content\Switch.qml;content\Tile.qml;content\i18n\CP_zh_CN.qm;content\i18n\CP_zh_CN.ts;content\i18n\MP_zh_CN.qm;content\i18n\MP_zh_CN.ts;content\i18n\M_zh_CN.qm;content\i18n\M_zh_CN.ts;content\images\background.jpg;content\images\close.png;content\images\minimize.png;content\images\particle.png;content\images\quit.png;content\images\splash.jpg;content\images\tile_background.png;content\images\tile_button1.png;content\images\tile_button2.png;content\qmldir;laola.ico;qtrc.qrc"
+						CommandLine="D:\study\IDE\qt-win-opensource-vs2008\bin\rcc.exe -name qtrc qtrc.qrc -o release\qrc_qtrc.cpp"
+						Description="RCC qtrc.qrc"
+						Outputs="release\qrc_qtrc.cpp"
+						Path="d:\study\IDE\qt-win-opensource-vs2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="content\images\quit.png" />
+			<File
+				RelativePath="content\images\splash.jpg" />
+			<File
+				RelativePath="content\images\tile_background.png" />
+			<File
+				RelativePath="content\images\tile_button1.png" />
+			<File
+				RelativePath="content\images\tile_button2.png" />
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

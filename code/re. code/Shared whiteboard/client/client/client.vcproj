@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9,00"
+	Name="client"
+	ProjectGUID="{378507AB-C5BE-3835-AACF-63DDEE294D85}"
+	Keyword="Qt4VSv1.0">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="."
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="1"
+			IntermediateDirectory="debug\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\..\..\tool\QT\4.6.1-vs2008\include\QtCore&quot;,&quot;..\..\..\..\tool\QT\4.6.1-vs2008\include\QtNetwork&quot;,&quot;..\..\..\..\tool\QT\4.6.1-vs2008\include\QtGui&quot;,&quot;..\..\..\..\tool\QT\4.6.1-vs2008\include&quot;,&quot;.&quot;,&quot;..\..\..\..\tool\QT\4.6.1-vs2008\include\ActiveQt&quot;,&quot;debug&quot;,&quot;.&quot;,..\..\..\..\tool\QT\4.6.1-vs2008\mkspecs\default"
+				AdditionalOptions="-Zm200 -w34100 -w34189 -w34100 -w34189"
+				AssemblerListingLocation="debug\"
+				BufferSecurityCheck="false"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				GeneratePreprocessedFile="0"
+				ObjectFile="debug\"
+				Optimization ="4"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				TreatWChar_tAsBuiltInType="false"
+				WarningLevel="3"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="d:\tool\QT\4.6.1-vs2008\lib\qtmaind.lib d:\tool\QT\4.6.1-vs2008\lib\QtGuid4.lib d:\tool\QT\4.6.1-vs2008\lib\QtNetworkd4.lib d:\tool\QT\4.6.1-vs2008\lib\QtCored4.lib"
+				AdditionalLibraryDirectories="d:\tool\QT\4.6.1-vs2008\lib"
+				AdditionalOptions="&quot;/MANIFESTDEPENDENCY:type=&apos;win32&apos; name=&apos;Microsoft.Windows.Common-Controls&apos; version=&apos;6.0.0.0&apos; publicKeyToken=&apos;6595b64144ccf1df&apos; language=&apos;*&apos; processorArchitecture=&apos;*&apos;&quot; &quot;/MANIFESTDEPENDENCY:type=&apos;win32&apos; name=&apos;Microsoft.Windows.Common-Controls&apos; version=&apos;6.0.0.0&apos; publicKeyToken=&apos;6595b64144ccf1df&apos; language=&apos;*&apos; processorArchitecture=&apos;*&apos;&quot;"
+				GenerateDebugInformation="true"
+				IgnoreImportLibrary="true"
+				LinkTimeCodeGeneration="0"
+				OutputFile="debug\client.exe"
+				ProgramDatabaseFile=""
+				SubSystem="2"
+				SuppressStartupBanner="true"/>
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT,_DEBUG"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="."
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="1"
+			IntermediateDirectory="release\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\..\..\tool\QT\4.6.1-vs2008\include\QtCore&quot;,&quot;..\..\..\..\tool\QT\4.6.1-vs2008\include\QtNetwork&quot;,&quot;..\..\..\..\tool\QT\4.6.1-vs2008\include\QtGui&quot;,&quot;..\..\..\..\tool\QT\4.6.1-vs2008\include&quot;,&quot;.&quot;,&quot;..\..\..\..\tool\QT\4.6.1-vs2008\include\ActiveQt&quot;,&quot;release&quot;,&quot;.&quot;,..\..\..\..\tool\QT\4.6.1-vs2008\mkspecs\default"
+				AdditionalOptions="-Zm200 -w34100 -w34189 -w34100 -w34189"
+				AssemblerListingLocation="release\"
+				BufferSecurityCheck="false"
+				DebugInformationFormat="0"
+				ExceptionHandling="1"
+				GeneratePreprocessedFile="0"
+				ObjectFile="release\"
+				Optimization ="2"
+				PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_NO_DEBUG,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT,NDEBUG"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				TreatWChar_tAsBuiltInType="false"
+				WarningLevel="3"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="d:\tool\QT\4.6.1-vs2008\lib\qtmain.lib d:\tool\QT\4.6.1-vs2008\lib\QtGui4.lib d:\tool\QT\4.6.1-vs2008\lib\QtNetwork4.lib d:\tool\QT\4.6.1-vs2008\lib\QtCore4.lib"
+				AdditionalLibraryDirectories="d:\tool\QT\4.6.1-vs2008\lib"
+				AdditionalOptions="&quot;/MANIFESTDEPENDENCY:type=&apos;win32&apos; name=&apos;Microsoft.Windows.Common-Controls&apos; version=&apos;6.0.0.0&apos; publicKeyToken=&apos;6595b64144ccf1df&apos; language=&apos;*&apos; processorArchitecture=&apos;*&apos;&quot; &quot;/MANIFESTDEPENDENCY:type=&apos;win32&apos; name=&apos;Microsoft.Windows.Common-Controls&apos; version=&apos;6.0.0.0&apos; publicKeyToken=&apos;6595b64144ccf1df&apos; language=&apos;*&apos; processorArchitecture=&apos;*&apos;&quot;"
+				GenerateDebugInformation="false"
+				IgnoreImportLibrary="true"
+				LinkIncremental="1"
+				LinkTimeCodeGeneration="0"
+				OutputFile="release\client.exe"
+				ProgramDatabaseFile=""
+				SubSystem="2"
+				SuppressStartupBanner="true"/>
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_NO_DEBUG,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="client.cpp"/>
+			<File
+				RelativePath="main.cpp"/>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath="client.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="Rem;client.h"
+						CommandLine="Rem IncrediBuild_AllowRemote &#x0d;&#x0a; Rem IncrediBuild_OutputFile debug\moc_client.cpp &#x0d;&#x0a; D:\tool\QT\4.6.1-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\tool\QT\4.6.1-vs2008\include\QtCore&quot; -I&quot;..\..\..\..\tool\QT\4.6.1-vs2008\include\QtNetwork&quot; -I&quot;..\..\..\..\tool\QT\4.6.1-vs2008\include\QtGui&quot; -I&quot;..\..\..\..\tool\QT\4.6.1-vs2008\include&quot; -I&quot;.&quot; -I&quot;..\..\..\..\tool\QT\4.6.1-vs2008\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -I..\..\..\..\tool\QT\4.6.1-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 client.h -o debug\moc_client.cpp"
+						Description="MOC client.h"
+						Outputs="debug\moc_client.cpp"
+						Path="."/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="Rem;client.h"
+						CommandLine="Rem IncrediBuild_AllowRemote &#x0d;&#x0a; Rem IncrediBuild_OutputFile release\moc_client.cpp &#x0d;&#x0a; D:\tool\QT\4.6.1-vs2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;..\..\..\..\tool\QT\4.6.1-vs2008\include\QtCore&quot; -I&quot;..\..\..\..\tool\QT\4.6.1-vs2008\include\QtNetwork&quot; -I&quot;..\..\..\..\tool\QT\4.6.1-vs2008\include\QtGui&quot; -I&quot;..\..\..\..\tool\QT\4.6.1-vs2008\include&quot; -I&quot;.&quot; -I&quot;..\..\..\..\tool\QT\4.6.1-vs2008\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -I..\..\..\..\tool\QT\4.6.1-vs2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 client.h -o release\moc_client.cpp"
+						Description="MOC client.h"
+						Outputs="release\moc_client.cpp"
+						Path="."/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="dataStruct.h"/>
+		</Filter>
+		<Filter
+			Name="Generated Files"
+			Filter="cpp;c;cxx;moc;h;def;odl;idl;res;"
+			UniqueIdentifier="{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}">
+			<File
+				RelativePath="debug\icon.res">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="release\icon.res">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="debug\moc_client.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="release\moc_client.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="debug\qrc_client.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="release\qrc_client.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="ui_client.h"/>
+		</Filter>
+		<Filter
+			Name="Form Files"
+			Filter="ui"
+			UniqueIdentifier="{99349809-55BA-4b9d-BF79-8FDBB0286EB3}"
+			ParseFiles="false">
+			<File
+				RelativePath="client.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="Rem;client.ui"
+						CommandLine="Rem IncrediBuild_AllowRemote &#x0d;&#x0a; Rem IncrediBuild_OutputFile .\ui_client.h &#x0d;&#x0a; D:\tool\QT\4.6.1-vs2008\bin\uic.exe client.ui -o ui_client.h"
+						Description="UIC client.ui"
+						Outputs="ui_client.h"
+						Path="."/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="Rem;client.ui"
+						CommandLine="Rem IncrediBuild_AllowRemote &#x0d;&#x0a; Rem IncrediBuild_OutputFile .\ui_client.h &#x0d;&#x0a; D:\tool\QT\4.6.1-vs2008\bin\uic.exe client.ui -o ui_client.h"
+						Description="UIC client.ui"
+						Outputs="ui_client.h"
+						Path="."/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="qrc;*"
+			UniqueIdentifier="{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}"
+			ParseFiles="false">
+			<File
+				RelativePath="client.qrc">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\tool\QT\4.6.1-vs2008\bin\rcc.exe;client.qrc"
+						CommandLine="D:\tool\QT\4.6.1-vs2008\bin\rcc.exe -name client client.qrc -o debug\qrc_client.cpp"
+						Description="RCC client.qrc"
+						Outputs="debug\qrc_client.cpp"
+						Path="d:\tool\QT\4.6.1-vs2008\bin"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\tool\QT\4.6.1-vs2008\bin\rcc.exe;client.qrc"
+						CommandLine="D:\tool\QT\4.6.1-vs2008\bin\rcc.exe -name client client.qrc -o release\qrc_client.cpp"
+						Description="RCC client.qrc"
+						Outputs="release\qrc_client.cpp"
+						Path="d:\tool\QT\4.6.1-vs2008\bin"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<File
+			RelativePath="icon.rc"/>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

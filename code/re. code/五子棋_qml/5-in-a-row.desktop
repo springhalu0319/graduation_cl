@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=GB2312
+Version=1.0
+Type=Application
+Terminal=false
+Name=Îå×ÓÆå
+Exec=/opt/usr/bin/5-in-a-row
+Icon=5-in-a-row
+X-Window-Icon=5-in-a-row.ico
+X-HildonDesk-ShowInToolbar=true
+X-Osso-Type=application/x-executable

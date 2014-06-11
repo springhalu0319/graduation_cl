@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="client">
+    <file>exe.ico</file>
+  </qresource>
+</RCC>

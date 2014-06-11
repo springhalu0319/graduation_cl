@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/new">
+        <file>content/images/background.jpg</file>
+        <file>content/images/close.png</file>
+        <file>content/images/minimize.png</file>
+        <file>content/images/particle.png</file>
+        <file>content/images/splash.jpg</file>
+        <file>content/images/tile_background.png</file>
+        <file>content/images/tile_button1.png</file>
+        <file>content/images/tile_button2.png</file>
+        <file>content/Button.qml</file>
+        <file>content/ControlPanel.qml</file>
+        <file>content/Explosion.qml</file>
+        <file>content/Frame.qml</file>
+        <file>content/GameView.qml</file>
+        <file>content/MainView.qml</file>
+        <file>content/MenuPanel.qml</file>
+        <file>content/qmldir</file>
+        <file>content/Switch.qml</file>
+        <file>content/Tile.qml</file>
+        <file>laola.ico</file>
+        <file>content/i18n/CP_zh_CN.qm</file>
+        <file>content/i18n/CP_zh_CN.ts</file>
+        <file>content/i18n/M_zh_CN.qm</file>
+        <file>content/i18n/M_zh_CN.ts</file>
+        <file>content/i18n/MP_zh_CN.qm</file>
+        <file>content/i18n/MP_zh_CN.ts</file>
+        <file>content/images/quit.png</file>
+    </qresource>
+</RCC>
